@@ -1,18 +1,65 @@
 * {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
+    
 }
 body{
     text-align: center;
+  background: linear-gradient(135deg, #1db954, #17a34a);
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* fonte moderna */
+  color: white;
+}
+main{
+    background-color: #121212;
+    border-radius: 20px;
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+     height: 100vh;
+     box-shadow: 0 0 100px black;
 }
 header{
-    background-color: rgba(0, 0, 180, 0.514);
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-img{
-    height: 500px;
+h1{
+    color: white;
+    position: relative;
+    top: 10px;
 }
-
+.cabeca{
+    color: white;
+}
+img.kanye{
+    height: 150px;
+    width: auto;
+    position: relative;
+    left: 40px;
+    top: 100px;
+    box-shadow: 0 0 20px black;
+}
+img.Taylor{
+    height: 150px;
+    width: auto;
+    position: relative;
+    left: 15px;
+    top: 100px;
+    box-shadow: 0 0 20px black;
+}
+.sub{
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.sub2{
+    color: white;
+    position: relative;
+    top: 80px;
+}
 footer {
   position: fixed;
   bottom: 0;
