@@ -65,3 +65,46 @@ a{
     text-decoration: none;
     color: white;
 }
+p img:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+     border-radius: 10px;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+nav{
+    background-color: #000000;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: blue;
+}
+.dropdown-menu{
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    box-shadow: 0 0 2px  black;
+    display: none;
+}
+.dropdown-menu a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

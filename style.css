@@ -3,6 +3,7 @@
     padding: 0%;
     
 }
+
 body{
     text-align: center;
   background: linear-gradient(135deg, #1db954, #17a34a);
@@ -20,7 +21,7 @@ main{
      box-shadow: 0 0 100px black;
 }
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
     height: 30px;
     display: flex;
     justify-content: space-around;
@@ -35,21 +36,30 @@ h1{
     color: white;
 }
 img.kanye{
-    height: 150px;
+    height: 200px;
     width: auto;
     position: relative;
     left: 40px;
     top: 100px;
     box-shadow: 0 0 20px black;
+    transition: 0.5s;
+}
+img.kanye:hover{
+    transform: scale(1.2);
 }
 img.Taylor{
-    height: 150px;
+    height: 200px;
     width: auto;
     position: relative;
     left: 15px;
     top: 100px;
     box-shadow: 0 0 20px black;
+    transition: 0.5s;
 }
+img.Taylor:hover{
+    transform: scale(1.2);
+}
+
 .sub{
     color: white;
     position: relative;
@@ -69,4 +79,40 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+
+nav{
+    background-color: #000000;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 11px;
+    transition: 0.3s;
+}
+nav li a:hover{
+    background-color: blue;
+}
+.dropdown-menu{
+    position: absolute;
+    z-index: 1;
+    background-color: #000000;
+    box-shadow: 0 0 2px  black;
+    display: none;
+}
+.dropdown-menu a{
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+img{
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
 }
